@@ -1,0 +1,316 @@
+Yeh tumhare raw notes hain. Maine inko GitHub-friendly `.md` format me organize kar diya hai.
+
+# 🎭 Social Engineering
+
+## What is Social Engineering?
+
+Social Engineering ek cyber attack technique hai jisme attacker technology ko directly hack karne ke bajaye **insaan ko manipulate** karta hai.
+
+### Golden Rule
+
+> **"Hack the Human, Not the Device."**
+
+Attackers human emotions ka fayda uthate hain:
+
+* Trust
+* Fear
+* Urgency
+* Curiosity
+* Greed
+
+### Example
+
+Attacker call karta hai:
+
+> "Sir, aapka bank account block hone wala hai. OTP bata dijiye."
+
+Victim trust karke OTP de deta hai aur account compromise ho jata hai.
+
+---
+
+# 🎣 Phishing
+
+## What is Phishing?
+
+Phishing ek social engineering attack hai jisme attacker fake messages, emails ya websites ka use karke sensitive information churaane ki koshish karta hai.
+
+### Goal
+
+* Username
+* Password
+* OTP
+* Credit Card Details
+* Banking Information
+
+---
+
+# Types of Phishing
+
+## 1️⃣ Email Phishing
+
+### Definition
+
+Email phishing sabse common phishing attack hai.
+
+Attacker fake emails bhejta hai jo legitimate organizations jaise:
+
+* Banks
+* PayPal
+* Amazon
+* Microsoft
+* Google
+
+ke emails jaise dikhte hain.
+
+### Example
+
+Subject:
+
+```text
+Your Account Has Been Suspended
+```
+
+Email me fake login link diya hota hai.
+
+Victim login karta hai aur credentials attacker ke paas chale jaate hain.
+
+### Characteristics
+
+* Mass attack
+* Thousands of users ko ek saath target karta hai
+* Generic message hota hai
+
+---
+
+## 2️⃣ Spear Phishing
+
+### Definition
+
+Spear phishing targeted phishing attack hota hai.
+
+Attacker pehle victim ke baare me research karta hai aur phir personalized email bhejta hai.
+
+### Example
+
+Attacker LinkedIn se information collect karta hai:
+
+```text
+Name: Jay Sharma
+Company: XYZ Ltd
+Department: IT Support
+```
+
+Phir personalized email bhejta hai:
+
+```text
+Hi Jay,
+
+Please review the attached IT policy document.
+```
+
+### Characteristics
+
+* Specific individual target
+* Personalized attack
+* Success rate high hota hai
+
+---
+
+## 3️⃣ Whaling
+
+### Definition
+
+Whaling spear phishing ka advanced version hai.
+
+Isme high-profile executives ko target kiya jata hai.
+
+### Targets
+
+* CEO
+* CFO
+* CTO
+* Directors
+* Senior Management
+
+### Why Called Whaling?
+
+> Bigger Fish = Bigger Target
+
+### Example
+
+Fake email:
+
+```text
+Urgent Wire Transfer Required
+```
+
+CEO ya CFO ko bheja jata hai company funds transfer karwane ke liye.
+
+### Goal
+
+* Financial Fraud
+* Sensitive Data Theft
+* Company Access
+
+---
+
+## 4️⃣ Smishing
+
+### Definition
+
+Smishing = SMS + Phishing
+
+SMS messages ke through phishing attack karna.
+
+### Example
+
+```text
+Your Bank Account Has Been Locked.
+
+Click Here:
+www.fake-bank.com
+```
+
+### Goal
+
+* Credentials steal karna
+* Malware install karwana
+* Financial fraud
+
+### Characteristics
+
+* SMS based attack
+* Mobile users ko target karta hai
+
+---
+
+## 5️⃣ Vishing
+
+### Definition
+
+Vishing = Voice + Phishing
+
+Phone calls ke through scam karna.
+
+### Example
+
+Attacker call karta hai:
+
+```text
+Hello Sir,
+
+Main bank se bol raha hoon.
+Aapka account verify karna hai.
+OTP bata dijiye.
+```
+
+Victim OTP share kar deta hai.
+
+### Goal
+
+* Banking Fraud
+* Account Takeover
+* Identity Theft
+
+### Characteristics
+
+* Voice call based attack
+* Trust aur urgency create karta hai
+
+---
+
+## 6️⃣ Clone Phishing
+
+### Definition
+
+Clone phishing me attacker legitimate email ka exact copy (clone) bana deta hai.
+
+Original email ki tarah hi:
+
+* Same format
+* Same logo
+* Same design
+
+Lekin malicious link ya attachment add kar deta hai.
+
+### Example
+
+Original Email:
+
+```text
+Monthly Report.pdf
+```
+
+Clone Email:
+
+```text
+Monthly Report Updated.pdf
+```
+
+Victim ko lagta hai ye legitimate email hai aur wo attachment open kar deta hai.
+
+### Goal
+
+* Malware Delivery
+* Credential Theft
+* Unauthorized Access
+
+### Characteristics
+
+* Original email ka clone
+* Highly convincing attack
+* Detect karna difficult hota hai
+
+---
+
+# Quick Revision Table
+
+| Attack Type    | Medium       | Target                    |
+| -------------- | ------------ | ------------------------- |
+| Email Phishing | Email        | Mass Users                |
+| Spear Phishing | Email        | Specific Individual       |
+| Whaling        | Email        | CEO, CFO, Executives      |
+| Smishing       | SMS          | Mobile Users              |
+| Vishing        | Voice Call   | Individuals               |
+| Clone Phishing | Cloned Email | Existing Email Recipients |
+
+---
+
+# Interview Questions
+
+## Q1. What is Social Engineering?
+
+Social Engineering ek attack technique hai jisme attacker human psychology ko manipulate karke sensitive information obtain karta hai.
+
+---
+
+## Q2. What is the difference between Phishing and Spear Phishing?
+
+* Phishing → Mass attack
+* Spear Phishing → Targeted attack on a specific individual
+
+---
+
+## Q3. What is Whaling?
+
+Whaling ek phishing attack hai jo high-profile executives jaise CEO aur CFO ko target karta hai.
+
+---
+
+## Q4. What is Smishing?
+
+SMS ke through kiya gaya phishing attack.
+
+---
+
+## Q5. What is Vishing?
+
+Voice calls ke through kiya gaya phishing attack.
+
+---
+
+## Q6. What is Clone Phishing?
+
+Legitimate email ka clone bana kar malicious link ya attachment bhejna.
+
+Ye format GitHub README ya Obsidian notes dono me clean render hoga. 🚀
